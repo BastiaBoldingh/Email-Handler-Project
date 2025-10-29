@@ -1,0 +1,4 @@
+How the user moves through my project.
+
+[Frontend] → [FastAPI route] → [email_service] → [message_repo] → [Postgres]
+                                               ↘ [Celery worker: fetch/sync mail]
